@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="appgfwz.css"/>
+<title>学习宝APP官方网站 - 学习宝超级APP</title>
+<style type="text/css">
+#app {display: none;}
+#pre {text-align: center;line-height: 95vh;user-select: none;}
+</style>
+</head>
+<body>
+
+
+<div id="pre">&#27491;&#22312;&#21152;&#36733;&#20013;&#46;&#46;&#46;</div>
+<div id="app">
+	<div class="top">
+		<div class="width"><logo></logo><title>学习宝APP</title><a href="/brand/" target="_blank">学习宝官网</a></div>
+	</div>
+	<div class="top_under"></div>
+	<div class="mid">
+		<div class="width">
+			<div class="flexbox">
+				<div class="mid_pc_img"></div>
+				<div class="mid_main">
+					<h1>岁末终章 学习宝倾情奉献之作</h1>
+					<p>现已上架安卓市场 供您品鉴</p>
+					<div class="download_dos_pc">
+						<button class="download_btn_pc" onclick="pcdown();"></button>
+						<div id="download_win_pc">
+							<img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAgic2rugYowOeuuwEwkAM4kAM.png"/>
+							<p>V1.0.5 2024-06-14<br/><a href="https://8458.kstore.space/xxb105.apk">直接下载到电脑</a></p>
+						</div>
+					</div>
+					<div class="download_dos_mb">
+						<button class="download_btn_mb"></button>
+						<p class="modeid_mb">当前版本：V1.0.5 2024-06-14</p>
+					</div>
+				</div>
+				<div class="mid_mb_img"></div>
+			</div>
+		</div>
+	</div>
+	<div class="bot">
+		<div class="width">
+			<p>© 2024 学习宝超级APP 版权所有并保留一切权利</p>
+			<p><a href="history.html" target="_blank">更新日志</a>|<a href="features.html" target="_blank">功能介绍</a>|<a href="faq.html" target="_blank">常见问题</a>|<a href="feedback.html" target="_blank">意见反馈</a></p>
+			<p class="ccyl"><img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAg3pqsugYo5PKElgcw6AQ4owE.png" height="30px"/></p>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript">
+d('pre');
+a('app');
+let clickPcdownCount = 0;
+function pcdown() {
+	if(clickPcdownCount%2===0) {
+		a('download_win_pc');
+	}
+	if(clickPcdownCount%2===1) {
+		d('download_win_pc');
+	}
+	clickPcdownCount++;
+}
+function d(e) {document.getElementById(e).style.display='none';}
+function a(e) {document.getElementById(e).style.display='block';}
+</script>
+</body>
+</html>
