@@ -108,6 +108,9 @@ function hashChangeHandler() {
 		setTitle('视频合集');
 		break;
 	default:
+		if(nih!=='newsDetail') {
+			window.location.href='#/index';
+		}
 		break;
 	}
 	if(nih==='newsDetail') {
