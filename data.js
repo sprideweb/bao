@@ -9,15 +9,15 @@ newsListList=`
         <br/><br/><br/>
 	    <div class="news">
 	    <div class="news-top-s">新闻列表</div>
-	        <nodata>没有内容</nodata>
+	    	<!--<nodata>没有内容</nodata>-->  
+	        <a onclick="goN(351)">学习宝超级视频APP安卓版正式上线，欢迎您下载品鉴<t>2024/06/14</t></a>
+	        <a onclick="goN(319)">学习宝团队成员举行聚餐活动，告别难忘的高中生活<t>2022/08/15</t></a>
+	        <a onclick="goN(318)">学习宝团队在东北师大附中校门口拍摄告别视频<t>2022/08/15</t></a>  
 	    </div>
 	    <div class="news">
 	    <div class="news-top-s">公告列表</div>
-	        <a onclick="goN(354)">关于学习宝快手APP官方账号终止运营的公告<t>2024/04/12</t></a>  
-	        <a onclick="goN(353)">关于学习宝微信视频号官方账号终止运营的公告<t>2024/04/11</t></a>  
-	        <a onclick="goN(352)">关于学习宝B站官方账号终止运营的公告<t>2024/04/10</t></a>
-	        <a onclick="goN(319)">学习宝团队成员聚餐<t>2022/08/15</t></a>  
-
+	    	<!--<nodata>没有内容</nodata>-->
+	    	<a onclick="goN(322)">全平台暂停更新公告<t>2022/08/18</t></a>  
 	    </div>
 	    <br/><br/><br/><br/>
     </div>
@@ -25,12 +25,22 @@ newsListList=`
 function newsInfoInfo() {
 	switch(nid) {
 	case '231':
-		newsCC=`<p><br/>快手：学习宝官方账号<br/><br/><a href="https://space.bilibili.com/494631046" target="_blank">哔哩哔哩：学习宝官方账号</a><br/><br/>微信视频号：学习宝官号</p>`;
-		basI('学习宝所有平台账号一览',2022,2,5);
+		newsCC=`内容已删除`;
+		basI('欢迎关注学习宝哔哩哔哩、微信视频号、快手短视频账号',2022,2,5);
+		break;
+	case '318':
+		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAgtcSbuwYo1u21wwUwjQM48gM.png"/><br/><br/></center>学习宝团队在东北师大附中校门口拍摄告别视频，告别珍贵的高中生活和可爱的观众朋友们，感谢你们与我们一起度过难忘的高三时光。我们有缘再会！`;
+		basI('学习宝团队在东北师大附中校门口拍摄告别视频',2022,8,15);
 		break;
 	case '319':
 		newsCC=`<center><img src="https://13511974.s21i.faimallusr.com/4/4/ABUIABAEGAAgsa2VrgYo3tec-AUwiQI47QE.png"/></center>`;
-		basI('学习宝团队成员聚餐',2022,8,15);
+		basI('学习宝团队成员举行聚餐活动，告别难忘的高中生活',2022,8,15);
+		break;
+	case '322':
+		newsCC=`<center><h1>全平台暂停更新公告</h1></center><br/><br/>
+		<p>即日起，学习宝全网平台账号暂停更新。感谢您的支持和陪伴。</p><br/><br/><br/>学习宝<br/>2022年8月16日
+		`;
+		basI('全平台暂停更新公告',2022,8,18);
 		break;
 	case '329':
 		newsCC=`<center><img src=""/></center><br/>`;
@@ -75,19 +85,9 @@ function newsInfoInfo() {
 		newsCC=`<center><img src=""/></center><br/>`;
 		basI('洪宇凡',2022,10,20);
 		break;
-	case '352':
-		newsCC=`<img src="https://13511974.s21i.faiusr.com/2/ABUIABACGAAg0b-utAYooKO8rQQwuAg43As.jpg"/>`;
-		basI('关于学习宝B站官方账号终止运营的公告',2024,4,10);
-		break;
-	case '353':
-		newsCC=`<img src="https://13511974.s21i.faiusr.com/2/ABUIABACGAAg0eLvtAYo3vX3oAcwuAg46gw.jpg"/>`;
-		basI('关于学习宝微信视频号官方账号终止运营的公告',2024,4,11);
-		break;
-	case '354':
-		newsCC=`<center><h1>关于学习宝快手APP官方账号终止运营的公告</h1></center><br/><br/>
-		<p>\u3000\u3000因账号运营合作期满，学习宝快手APP官方账号“学习宝~ 双击666”（快手平台ID: ksxuexibao）即日起不再以学习宝快手平台官方账号身份运营。</p><br/><br/><br/>学习宝<br/>2024年4月12日
-		`;
-		basI('关于学习宝快手APP官方账号终止运营的公告',2024,4,12);
+	case '351':
+		newsCC=`<img src="https://www.baidu.com/4/5/ABUIABAEGAAgu9CbuwYoxMDB0QYwvAo4sQI.png" width="80%"/><br/>学习宝APP下载地址：http://bao.spride.asia/app/`;
+		basI('学习宝超级视频APP安卓版正式上线，欢迎您下载品鉴',2024,6,14);
 		break;
 	default:
 		window.location.href="#/index/newsList";
