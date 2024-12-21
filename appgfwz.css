@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	line-height: 1;
-	font-family: Arial, sans-serif;
+	font-family: Segoe UI, sans-serif;
 }
 .noto-sans-sc-<uniquifier> {
 	font-family: "Noto Sans SC", sans-serif;
@@ -45,13 +45,13 @@
 		height: 65px;
 	}
 	.top .width logo {
-		width: 65px;
-		height: 50px;
+		width: 68px;
+		height: 54px;
 	}
 	.top .width title {
-		font-size: 20px;
+		font-size: 18px;
 		padding: 5px 0;
-		margin: 18px 0;
+		margin: 19px 0;
 	}
 	.top .width a {
 		font-size: 14.5px;
@@ -109,7 +109,7 @@
 		font-size: 16px;
 		text-align: left;
 		line-height: 3;
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 	#download_win_pc a {
 		color: #0080ff;
@@ -131,13 +131,11 @@
 		display: none;
 	}
 	.bot p {
-		font-size: 15px;
+		font-size: 14.5px;
 		display: inline-block;
-		margin: 0 10px;
+		margin: 0 20px;
+		line-height: 1;
 		vertical-align: middle;
-	}
-	p.ccyl {
-		line-height: 1!important;
 	}
 }
 @media(max-width:1200px) {
@@ -210,6 +208,7 @@
 	}
 	.bot p {
 		font-size: 12px;
+		line-height: 2;
 	}
 	p.ccyl {
 		margin-top: 15px;
@@ -259,19 +258,178 @@
 }
 .bot {
 	background: #fff;
-	padding: 30px 0;
+	padding: 20px 0;
 	text-align: center;
 }
 .bot p {
-	color: #272727;
-	line-height: 2;
+	color: #000;
 }
 .bot p a {
-	color: #8f8f8f;
+	color: #000;
 	text-decoration: none;
-	margin: 0 5px;
+	margin: 0 6px;
 }
 .bot p a:hover {
+	color: #0080ff;
 	text-decoration: underline;
+}
+
+
+/*--------------------SubPage--------------------*/
+.s-top {
+	background: #fff;
+	height: 60px;
+	min-width: 900px;
+}
+.s-width {
+	width: 900px;
+	margin: 0 auto;
+}
+.s-top .s-width {
+	background: url(https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAg3pqsugYo5PKElgcw6AQ4owE.png);
+	background-size: auto 52%;
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 60px;
+}
+.s-top .s-width p {
+	font-size: 15px;
+	line-height: 4;
+}
+.s-top .s-width p span {
+	color: #6f6f6f;
+	display: inline-block;
+}
+.s-top .s-width p span:before {
+	content: '•';
+	padding: 0 3px;
+	color: #e0e0e0;
+}
+.s-switch {
+	background: #e0e0e0;
+	height: 45px;
+	text-align: center;
+	overflow: hidden;
+	min-width: 900px;
+}
+.s-switch .s-width a {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 15px;
+	color: #5b5b5b;
+	text-decoration: none;
+	height: 40px;
+	margin: 0 20px;
+	margin-top: 6px;
+	padding: 9px 20px 15px 20px;
+	border-radius: 8px 8px 0 0;
+}
+.s-switch .s-width a.act {
 	color: #005ab5;
+	background: #fff;
+}
+.s-switch .s-width a:hover:not(.act) {
+	background: #fff;
+}
+.s-page {
+	padding: 50px 0;
+}
+.s-boxx {
+	border-radius: 8px;
+	border: 1px solid #e0e0e0;
+	margin: 0px 15px 30px 15px;
+}
+.s-boxx-top {
+	padding: 0 30px;
+	border-bottom: 1.5px solid #e0e0e0;
+}
+.s-boxx-top p {
+	font-size: 17px;
+	line-height: 2.5;
+	font-family: Arial;
+}
+.s-boxx-top p span {
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 15px;
+}
+.s-boxx-body {
+	padding: 15px 30px;
+}
+.s-boxx-body p {
+	font-size: 15px;
+	line-height: 1.5;
+	margin-left: 5px;
+}
+
+.s-bottom {
+	color: #272727;
+	font-size: 14px;
+	text-align: center;
+	min-width: 900px;
+	padding: 20px 0;
+}
+.s-bottom a {
+	color: #005ab5;
+	text-decoration: none;
+}
+.s-bottom a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+.s-bottom span {
+	margin-left: 20px;
+}
+.s-downbtn {
+	font-size: 14px;
+	padding: 10px 15px;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	background: #fff;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.s-downbtn:hover {
+	background: #2894ff;
+	color: #fff;
+	border-color: #2894ff;
+}
+.s-downbtn-fbd {
+	font-size: 14px;
+	padding: 10px 15px;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	background: #fff;
+	margin-top: 15px;
+	cursor: not-allowed;
+	color: #8f8f8f;
+}
+zuixin {
+	color: #fff;
+	font-size: 12px;
+	padding: 3px 8px;
+	border-radius: 5px;
+	margin-left: 10px;
+	background: #00bb00;
+}
+.s-nav {
+	background: #6f6f6f;
+	height: 46px;
+	min-width: 900px;
+	overflow: hidden;
+	text-align: center;
+}
+.s-nav a {
+	color: #fff;
+	font-size: 16px;
+	padding: 15px 0;
+	width: 20%;
+	display: inline-block;
+	text-decoration: none;
+}
+.s-nav a.act {
+	background: #4f4f4f;
+}
+.s-nav a:hover:not(.act) {
+	background: #5b5b5b;
 }
