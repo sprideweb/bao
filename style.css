@@ -32,7 +32,7 @@ p.ntfd a:hover {
 }
 .top {
 	height: 72px;
-	background: #FFE66F;
+	background: #ffd306;
 	/*background: linear-gradient(to left, #ffd400, #ffc20e);*/
 	box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
 	min-width: 1200px;
@@ -158,7 +158,7 @@ logo {
 	line-height: 2;
 }
 .title-bg {
-	background:#FFE66F	;
+	background:#ffd306	;
 	min-width: 1200px;
 }
 
