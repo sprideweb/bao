@@ -2,12 +2,9 @@
 	margin: 0;
 	padding: 0;
 	line-height: 1;
-	font-family: "Noto Sans SC";
+	font-family: sans-serif;
 }
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+
 p.ntfd {
 	padding: 200px 0;
 	text-align: center;
@@ -31,8 +28,8 @@ p.ntfd a:hover {
 	font-style: normal;
 }
 .top {
-	height: 72px;
-	background: #ffd306;
+	height: 90px;
+	background: #fff;
 	/*background: linear-gradient(to left, #ffd400, #ffc20e);*/
 	box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
 	min-width: 1200px;
@@ -48,9 +45,12 @@ p.ntfd a:hover {
 }
 .home-banner:hover {
 }
+.nav-out {
+	background: #2894ff;
+	min-width: 1200px;
+}
 .nav {
-	float: right;
-	height: 72px;
+	height: 56px;
 }
 .drop {
 	display: inline-block;
@@ -61,27 +61,24 @@ p.ntfd a:hover {
 	transition: .15s;
 	width: 112px;
 	overflow: hidden;
-	border-radius: 3px;
-	border: 1px solid #fafafa;
 	transform: scale(100%,0);
 	position: absolute;
-	background: #fff;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, .05);
+	background: #2894ff;
 }
 .drop:hover .dropc {
 	opacity: 1;
 	transform: scale(100%);
 }
 logo {
-	font-size: 18px;
+	font-size: 20px;
 	color: #000;
-	line-height: 4;
+	line-height: 90px;
 	display: inline-block;
 	vertical-align: middle;
 }
 .top img {
 	display: inline-block;
-	height: 50px;
+	height: 68px;
 	vertical-align: middle;
 	margin: 11px 0;
 	margin-right: 10px;
@@ -91,15 +88,15 @@ logo {
 	text-decoration: none;
 	font-size: 15px;
 	line-height: 1.5;
-	padding: 12px 0;
+	padding: 14px 0;
 	transition: opacity .3s;
 	width: 100%;
 	text-align: center;
-	color: #000;
+	color: #fff;
 }
 .dropc a:hover {
-	color: #0080ff;
-	background: #ecf5ff;
+	color: #fff;
+	background: #0072e3;
 }
 .nav::selection {
 	background: none;
@@ -107,15 +104,15 @@ logo {
 .nav a:not(.dropc a) {
 	display: inline-block;
 	font-size: 18px;
-	line-height: 4;
-	color: #000;
+	line-height: 56px;
+	color: #fff;
 	text-decoration: none;
 	padding: 0 20px;
 	transition: color .2s;
 	cursor: pointer;
 }
 .nav a:not(.dropc a):hover {
-	background: rgba(0, 0, 0, .1);
+	background: #0072e3;
 	/*color: #2894ff;
 	height: 69px;
 	border-bottom: 3px solid #2894ff;*/
@@ -126,23 +123,27 @@ logo {
 .title::after {
 	content: '';
 	margin-top: 20px;
+	margin-left: 50%;
+	transform: translate(-50%);
 	display: block;
-	width: 40px;
+	width: 30px;
 	height: 5px;
-	background: #FFF;
+	background: #2894ff;
 }
 .title h1 {
-	display: inline-block;
+	display: block;
 	vertical-align: bottom;
 	font-size: 38px;
 	font-weight: normal;
+	text-align: center;
 }
 .title p {
-	display: inline-block;
+	display: block;
 	vertical-align: bottom;
 	font-size: 24px;
+	text-align: center;
 	color: rgba(0, 0, 0, .45);
-	margin-left: 30px;
+	margin-top: 30px;
 }
 .page-c {
 	padding: 50px 0;
@@ -158,7 +159,9 @@ logo {
 	line-height: 2;
 }
 .title-bg {
-	background:#ffd306	;
+	background: url(https://1.s140i.faiscm.com/2/AIwBCAAQAhgAIMqxpYYGKJ7n7rsCMLgNOKkP.jpg);
+	background-size: 100%;
+	background-position: center center;
 	min-width: 1200px;
 }
 
@@ -189,7 +192,7 @@ man h1 {
 	transition: .2s;
 }
 man p {
-	font-size: 14px!important;
+	font-size: 15px!important;
 	padding: 15px 25px;
 	text-align: center;
 	color: #8f8f8f;
@@ -211,7 +214,7 @@ man h1::after {
 }
 man button {
 	display: block;
-	font-size: 14px;
+	font-size: 14.5px;
 	padding: 10px 20px;
 	margin: 10px auto;
 	border: none;
@@ -281,26 +284,27 @@ man button:hover {
 }
 .newsd h1#newstitle {
 	font-weight: normal;
-	font-size: 30px;
+	font-size: 31px;
+	text-align: center;
 	line-height: 1.5;
-	padding: 25px 0;
+	padding: 30px 0;
 }
 .newsd h1#newstitle::after {
 	display: block;
 	position: absolute;
-	content: '';
+	/*content: '';*/
 	width: 40px;
 	height: 4px;
 	background: #2894ff;
 	margin-top: 10px;
 }
 .newsd p#newsinfo {
-	color: #9f9f9f;
+	color: #5f5f5f;
 	margin-top: 10px;
 	background: #fafafa;
 	font-size: 14px;
+	text-align: center;
 	line-height: 2.8;
-	border-radius: 5px;
 }
 .newsd p#newsinfo::after {
 	display: block;
@@ -315,7 +319,7 @@ man button:hover {
 }
 #newscontent {
 	padding: 50px 5px;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 2;
 }
 #newscontent p {
@@ -346,15 +350,15 @@ man button:hover {
 	line-height: 2;
 	color: #2894ff;
 }
-@media(max-width:1000px) {
+@media(max-width:1100px) {
 	.flex-width {
 		width: 100%;
 		margin: 0;
 	}
 }
-@media(min-width:1000px) {
+@media(min-width:1100px) {
 	.flex-width {
-		width: 1000px;
+		width: 1100px;
 		margin: 0 auto;
 	}
 }
@@ -363,9 +367,9 @@ bottom {
 	display: block;
 	background: #383a41;
 	color: #e0e0e0;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: center;
-	padding: 33px 0;
+	padding: 38px 0;
 	min-width: 1200px;
 }
 bottom p {
@@ -405,9 +409,9 @@ videc img {
 }
 videc h1 {
 	position: absolute;
-	top: 28px;
+	top: 26px;
 	left: 210px;
-	font-size: 16.5px;
+	font-size: 18px;
 	line-height: 1.5;
 	font-weight: normal;
 	color: #000;
@@ -427,9 +431,9 @@ videc p bi {
 	display: inline-block;
 	color: #f58f98;
 	border: 1px solid #f58f98;
-	padding: 7px 10px;
+	padding: 8px 12px;
 	cursor: pointer;
-	font-size: 13.5px;
+	font-size: 14px;
 	
 	vertical-align: top;
 	margin-right: 10px;
@@ -446,9 +450,9 @@ videc p sph {
 	display: inline-block;
 	color: #00CD00;
 	border: 1px solid #00CD00;
-	padding: 7px 10px;
+	padding: 8px 12px;
 	cursor: pointer;
-	font-size: 13.5px;
+	font-size: 14px;
 	
 	margin-right: 10px;
 	vertical-align: top;
@@ -457,9 +461,9 @@ videc p ks {
 	display: inline-block;
 	color: orange;
 	border: 1px solid orange;
-	padding: 7px 10px;
+	padding: 8px 12px;
 	cursor: pointer;
-	font-size: 13.5px;
+	font-size: 14px;
 	
 	margin-right: 10px;
 	vertical-align: top;
@@ -488,4 +492,30 @@ videc p ks:hover {
 }
 #newscontent a:hover {
 	text-decoration: underline;
+}
+
+
+
+.xwlb-new {
+	margin: 50px 0;
+}
+.xwlb-new a {
+	cursor: pointer;
+	display: block;
+	padding: 0 50px;
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	line-height: 75px;
+	transition: .1s;
+}
+.xwlb-new a:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, .08);
+}
+.xwlb-new a t {
+	display: inline-block;
+	float: right;
+	font-size: 16px;
+	color: #9f9f9f;
+	line-height: 75px;
 }
