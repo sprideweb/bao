@@ -1,6 +1,6 @@
 function createLoad() {
 	showLoad();
-	var randomt=Math.random() * (10 - 1) + 1;
+	var randomt=/*Math.random() * (10 - 1) + 1*/0;
 	setTimeout("finishLoad()",randomt);
 }
 function hashChangeHandler() {
@@ -49,16 +49,16 @@ function hashChangeHandler() {
 		</div>
 		</div>
 		<div class="width page-c">
-		<man><h1>姜耗盐</h1><p>演员 剧情</p><button onclick="goN(330)">详情信息</button></man>
-		<man><h1>解说马尧</h1><p>演员 剧情</p><button onclick="goN(331)">详情信息</button></man>
-		<man><h1>窑子</h1><p>演员</p><button onclick="goN(332)">详情信息</button></man>
-		<man><h1>家银</h1><p>演员 剧情</p><button onclick="goN(333)">详情信息</button></man>
-		<man><h1>小董</h1><p>演员</p><button onclick="goN(335)">详情信息</button></man>
-		<man><h1>赵文化</h1><p>演员 账号运营</p><button onclick="goN(336)">详情信息</button></man>
-		<man><h1>杨二狗</h1><p>演员 拍摄 剪辑</p><button onclick="goN(337)">详情信息</button></man>
+		<man><h1>姜浩然</h1><p>演员 剧情</p><button onclick="goN(330)">详情信息</button></man>
+		<man><h1>陈 骁</h1><p>演员 剧情</p><button onclick="goN(331)">详情信息</button></man>
+		<man><h1>王禹尧</h1><p>演员</p><button onclick="goN(332)">详情信息</button></man>
+		<man><h1>刘彦泽</h1><p>演员 剧情</p><button onclick="goN(333)">详情信息</button></man>
+		<man><h1>董彦伯</h1><p>演员</p><button onclick="goN(335)">详情信息</button></man>
+		<man><h1>赵禹淳</h1><p>演员 账号运营</p><button onclick="goN(336)">详情信息</button></man>
+		<man><h1>杨士赫</h1><p>演员 拍摄 剪辑</p><button onclick="goN(337)">详情信息</button></man>
 		<man><h1>袁炜迪</h1><p>演员 剧情 拍摄</p><button onclick="goN(338)">详情信息</button></man>
 		<man><h1>洪宇凡</h1><p>演员</p><button onclick="goN(339)">详情信息</button></man>
-		<man><h1>裴辣鸡</h1><p>演员</p><button onclick="goN(329)">详情信息</button></man>
+		<man><h1>裴隆基</h1><p>演员</p><button onclick="goN(329)">详情信息</button></man>
 		<man><h1>更多</h1><p>更多成员，敬请期待</p></man>
 		</div>
 		`;
@@ -95,7 +95,7 @@ function hashChangeHandler() {
 		<videc><img src=""/><h1>【vlog？】摆 烂 人 做 摆 烂 饭</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>高中摆烂人2 之《 西 电 东 输 》</h1><p><bi onclick="openBI()">哔哩哔哩</bi><sph onclick="openWXSPH()">视频号</sph></p></videc>
 		<videc><img src=""/><h1>高三九班全明星：好 运 来</h1><p><sph onclick="openWXSPH()">视频号</sph></p></videc>
-		<videc><img src=""/><h1>大家新年快乐呀！是不是很想我们呢[doge]~学习宝</h1><p><ks onclick="openKS()">快手</ks></p></videc>
+		<videc><img src=""/><h1>大家新年快乐呀！是不是很想我们呢[doge]~学习宝</h1><p><ks onclick="openKS()">快手短视频</ks></p></videc>
 		<videc><img src=""/><h1>《高 中 摆 烂 人 图 鉴》</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>《如 何 制 作 炒 田 鼠》√</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>震惊！我在学校里遇见丧尸了？!</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
@@ -174,7 +174,7 @@ function basI(e,e2,e3,e4) {
 		document.getElementById('newsinfo').innerHTML='<img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAgh4qEuwYos531uAYwsAk4sAk.png"/>1999-12-31';
 	}
 	if(e3<13&&e4<32&&e2<2031) {
-		document.getElementById('newsinfo').innerHTML='<img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAgh4qEuwYos531uAYwsAk4sAk.png"/>'+e2+'-'+e3+'-'+e4+'';
+		document.getElementById('newsinfo').innerHTML=/*'<img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAgh4qEuwYos531uAYwsAk4sAk.png"/>'*/'时间：'+e2+'-'+e3+'-'+e4+'';
 	}
 	document.getElementById('newstitle').innerText=e;
 	document.getElementById('newscontent').innerHTML=newsCC;
