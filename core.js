@@ -49,17 +49,17 @@ function hashChangeHandler() {
 		</div>
 		</div>
 		<div class="width page-c">
-		<man><h1>姜浩然</h1><p>演员 剧情</p><button onclick="goN(330)">详情信息</button></man>
-		<man><h1>陈 骁</h1><p>演员 剧情</p><button onclick="goN(331)">详情信息</button></man>
-		<man><h1>刘彦泽</h1><p>演员 剧情</p><button onclick="goN(333)">详情信息</button></man>
-		<man><h1>董彦伯</h1><p>演员</p><button onclick="goN(335)">详情信息</button></man>
-                <man><h1>王禹尧</h1><p>演员</p><button onclick="goN(332)">详情信息</button></man>
-		<man><h1>赵禹淳</h1><p>演员 账号运营</p><button onclick="goN(336)">详情信息</button></man>
-		<man><h1>杨士赫</h1><p>演员 拍摄 剪辑</p><button onclick="goN(337)">详情信息</button></man>
-		<man><h1>袁炜迪</h1><p>演员 剧情 拍摄</p><button onclick="goN(338)">详情信息</button></man>
-		<man><h1>洪宇凡</h1><p>演员</p><button onclick="goN(339)">详情信息</button></man>
-		<man><h1>裴隆基</h1><p>演员</p><button onclick="goN(329)">详情信息</button></man>
-		<man><h1>王鹏博</h1><p>&nbsp;</p><button onclick="goN(353)">详情信息</button></man>
+		<man><h1>姜浩然</h1><p>出镜</p><button onclick="goN(330)">详情信息</button></man>
+		<man><h1>陈 骁</h1><p>出镜</p><button onclick="goN(331)">详情信息</button></man>
+		<man><h1>刘彦泽</h1><p>出镜</p><button onclick="goN(333)">详情信息</button></man>
+		<man><h1>董彦伯</h1><p>出镜</p><button onclick="goN(335)">详情信息</button></man>
+                <man><h1>王禹尧</h1><p>出镜</p><button onclick="goN(332)">详情信息</button></man>
+		<man><h1>赵禹淳</h1><p>出镜/运营</p><button onclick="goN(336)">详情信息</button></man>
+		<man><h1>杨士赫</h1><p>拍摄/剪辑</p><button onclick="goN(337)">详情信息</button></man>
+		<man><h1>袁炜迪</h1><p>出镜/拍摄</p><button onclick="goN(338)">详情信息</button></man>
+		<man><h1>洪宇凡</h1><p>出镜</p><button onclick="goN(339)">详情信息</button></man>
+		<man><h1>裴隆基</h1><p>出镜</p><button onclick="goN(329)">详情信息</button></man>
+		<man><h1>王鹏博</h1><p>出镜</p><button onclick="goN(353)">详情信息</button></man>
 		<man><h1>更多</h1><p>敬请期待</p></man>
 		</div>
 		`;
