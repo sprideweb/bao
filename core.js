@@ -59,7 +59,8 @@ function hashChangeHandler() {
 		<man><h1>袁炜迪</h1><p>演员 剧情 拍摄</p><button onclick="goN(338)">详情信息</button></man>
 		<man><h1>洪宇凡</h1><p>演员</p><button onclick="goN(339)">详情信息</button></man>
 		<man><h1>裴隆基</h1><p>演员</p><button onclick="goN(329)">详情信息</button></man>
-		<man><h1>更多</h1><p>更多成员，敬请期待</p></man>
+		<man><h1>王鹏博</h1><p>&nbsp;</p><button onclick="goN(353)">详情信息</button></man>
+		<man><h1>更多</h1><p>敬请期待</p></man>
 		</div>
 		`;
 		setTitle('团队成员');
