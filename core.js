@@ -51,9 +51,9 @@ function hashChangeHandler() {
 		<div class="width page-c">
 		<man><h1>姜浩然</h1><p>演员 剧情</p><button onclick="goN(330)">详情信息</button></man>
 		<man><h1>陈 骁</h1><p>演员 剧情</p><button onclick="goN(331)">详情信息</button></man>
-		<man><h1>王禹尧</h1><p>演员</p><button onclick="goN(332)">详情信息</button></man>
 		<man><h1>刘彦泽</h1><p>演员 剧情</p><button onclick="goN(333)">详情信息</button></man>
 		<man><h1>董彦伯</h1><p>演员</p><button onclick="goN(335)">详情信息</button></man>
+                <man><h1>王禹尧</h1><p>演员</p><button onclick="goN(332)">详情信息</button></man>
 		<man><h1>赵禹淳</h1><p>演员 账号运营</p><button onclick="goN(336)">详情信息</button></man>
 		<man><h1>杨士赫</h1><p>演员 拍摄 剪辑</p><button onclick="goN(337)">详情信息</button></man>
 		<man><h1>袁炜迪</h1><p>演员 剧情 拍摄</p><button onclick="goN(338)">详情信息</button></man>
@@ -80,7 +80,7 @@ function hashChangeHandler() {
 		</div>
 		</div>
 		<div class="width page-c">
-		<videc><img src=""/><h1>学习宝成员（最后？）一次会晤</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
+		<!--<videc><img src=""/><h1>学习宝成员（最后？）一次会晤</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>来自学习宝的高考祝福 ^v^</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>高中毕业前最后一次男♂生♂的♂活动（悲）</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>普通高中自习课摸鱼被逮实录</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
@@ -103,7 +103,7 @@ function hashChangeHandler() {
 		<videc><img src=""/><h1>《欢 乐 学 习 人》4（学习人的破防时刻）</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>《欢 乐 学 习 人》3（独立宣言限定）</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
 		<videc><img src=""/><h1>《欢 乐 学 习 人》2</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
-		<videc><img src=""/><h1>《欢 乐 内 卷 人》1</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>
+		<videc><img src=""/><h1>《欢 乐 内 卷 人》1</h1><p><bi onclick="openBI()">哔哩哔哩</bi></p></videc>-->
 		</div>
 		`;
 		setTitle('视频合集');
