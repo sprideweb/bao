@@ -24,9 +24,9 @@ function newsInfoInfo() {
 		<p>2022年8月15日晚，学习宝团队在东北师范大学附属中学的校门口拍摄了他们的最后一支视频，标志着这个深受观众喜爱的团队即将结束他们自成立以来的重要旅程。在这段难忘的时间里，学习宝不仅积累了全平台数十万的播放量，还获得了近一千名忠实粉丝的支持与陪伴。</p>
 		<p>通过这段视频，学习宝团队表达了对他们珍贵的高中生活以及所有支持他们的观众朋友们深深的感激之情。团队成员回顾了他们在高三这一年所经历的成长与挑战，并感谢每一位粉丝与他们共同度过的美好时光。</p>
 		<p>在此，让我们一同祝愿学习宝团队的每一位成员前程似锦，并期待着下一次的美好相遇。未来，我们有缘再会！</p>
-                <p>视频地址：<a href="https://www.bilibili.com/video/BV1iT411A7RB/" target="_blank">https://www.bilibili.com/video/BV1iT411A7RB/</a></p>
 		<center><img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAgtcSbuwYo1u21wwUwjQM48gM.png"/><br/><br/></center>
 		<center><img src="https://13511974.s21i.faimallusr.com/4/4/ABUIABAEGAAgsa2VrgYo3tec-AUwiQI47QE.png"/></center>
+                <p>视频地址：<a href="https://www.bilibili.com/video/BV1iT411A7RB/" target="_blank">https://www.bilibili.com/video/BV1iT411A7RB/</a></p>
 		`;
 		basI('学习宝团队发布最终视频，感恩同行告别高中生涯',2022,8,15);
 		break;
@@ -54,7 +54,7 @@ function newsInfoInfo() {
 		break;
 	case '335':
 		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo4qm_8AQw4gI42AM.jpg"/></center><br/><br/>2022——&nbsp;北京大学<br/><br/>`;
-		basI('董彦',2022,10,20);
+		basI('dongyanb',2022,10,20);
 		break;
 	case '336':
 		newsCC=`<center><img src=""/></center><br/><br/><br/>`;
