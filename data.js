@@ -54,7 +54,7 @@ function newsInfoInfo() {
 		break;
 	case '335':
 		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo4qm_8AQw4gI42AM.jpg"/></center><br/>董彦伯，男，现就读于北京大学。<br/><br/><br/>`;
-		basI(,2022,10,20);
+		basI(董彦伯,2022,10,20);
 		break;
 	case '336':
 		newsCC=`<center><img src=""/></center><br/><br/><br/>`;
