@@ -36,11 +36,11 @@ function newsInfoInfo() {
 		break;
 	case '330':
 		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo6pjo1Qcw4gI42AM.jpg"/></center>
-		<br/><br/>2022——&nbsp;长春理工大学<br/><br/>`;
+		<br/>姜浩然，男，现就读于吉林教育学院。<br/><br/><br/>`;
 		basI('姜浩然',2022,10,5);
 		break;
 	case '331':
-		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo0abTzwYw4gI42AM.jpg"/></center><br/><br/>2022——&nbsp;吉林大学<br/><br/>
+		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo0abTzwYw4gI42AM.jpg"/></center><br/>陈骁，男，现就读于吉林大学。<br/><br/><br/>
 		`;
 		basI('陈 骁',2022,10,20);
 		break;
@@ -49,12 +49,12 @@ function newsInfoInfo() {
 		basI('王禹尧',2022,10,20);
 		break;
 	case '333':
-		newsCC=`<center><img src=""/></center><br/><br/>2022——&nbsp;西南交通大学<br/><br/>`;
+		newsCC=`<center><img src=""/></center><br/>刘彦泽，男，现就读于西南交通大学。<br/><br/><br/>`;
 		basI('刘彦泽',2022,10,20);
 		break;
 	case '335':
-		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo4qm_8AQw4gI42AM.jpg"/></center><br/><br/>2022——&nbsp;北京大学<br/><br/>`;
-		basI('dongyanb',2022,10,20);
+		newsCC=`<center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo4qm_8AQw4gI42AM.jpg"/></center><br/>董彦伯，男，现就读于北京大学。<br/><br/><br/>`;
+		basI(,2022,10,20);
 		break;
 	case '336':
 		newsCC=`<center><img src=""/></center><br/><br/><br/>`;
@@ -73,11 +73,11 @@ function newsInfoInfo() {
 		basI('洪宇凡',2022,10,20);
 		break;
 	case '353':
-		newsCC=`<center><img src=""/></center><br/><br/><br/>`;
+		newsCC=`<center><img src=""/></center><br/>王鹏博，男。<br/><br/><br/>`;
 		basI('王鹏博',2025,2,10);
 		break;
 	case '354':
-		newsCC=`<center><img src=""/></center><br/><br/><br/>`;
+		newsCC=`<center><img src=""/></center><br/>王柄智，男。<br/><br/><br/>`;
 		basI('王柄智',2025,2,10);
 		break;
 	case '355':
