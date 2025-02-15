@@ -58,12 +58,14 @@ p.ntfd a:hover {
 .dropc {
 	transform-origin: top;
 	opacity: 0;
-	transition: .15s;
-	width: 112px;
+	transition: .2s;
+	width: 120px;
 	overflow: hidden;
 	transform: scale(100%,0);
 	position: absolute;
-	background: #2894ff;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #eee;
 }
 .drop:hover .dropc {
 	opacity: 1;
@@ -86,17 +88,18 @@ logo {
 .dropc a {
 	display: block;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 14.5px;
 	line-height: 1.5;
-	padding: 14px 0;
+	padding: 12px 0;
 	transition: opacity .3s;
 	width: 100%;
+	cursor: pointer;
 	text-align: center;
-	color: #fff;
+	color: #5b5b5b;
 }
 .dropc a:hover {
-	color: #fff;
-	background: #0072e3;
+	color: #2894ff;
+	background: #ecf5ff;
 }
 .nav::selection {
 	background: none;
@@ -107,7 +110,7 @@ logo {
 	line-height: 56px;
 	color: #fff;
 	text-decoration: none;
-	padding: 0 20px;
+	padding: 0 25px;
 	transition: color .2s;
 	cursor: pointer;
 }
