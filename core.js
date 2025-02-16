@@ -165,6 +165,9 @@ function clear() {
 function goN(e) {
 	window.location.href='#/index/newsDetail/'+e;
 }
+function goNt(e) {
+	window.open('#/index/newsDetail/'+e,'_blank');
+}
 function basI(e,e2,e3,e4) {
 	if(e3<10) {
 		e3='0'+e3;
