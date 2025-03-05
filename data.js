@@ -82,10 +82,7 @@ function newsInfoInfo() {
 		break;
 	case '355':
 		newsCC=`
-                <p>2025年2月13日，学习宝视频团队的成员们在长春冰雪新天地迎来了久违的团聚。此次团建活动汇聚了团队中的10位成员，尽管距离学习宝发布最后一支视频已经过去近三年时间，且有两位成员因故未能出席，但我们的热情与活力依旧不减当年。</p>
-		<p>这次重聚不仅是对过去三年间各自成长的见证，也是对未来的美好展望。活动当天，团队成员们参与了长春冰雪新天地一系列丰富多彩的项目，在冰雪覆盖的新天地中尽情享受乐趣，并拍摄了Vlog视频。随后，学习宝团队成员来到楼外楼大刀肉传统火锅举行聚餐活动。</p>
-                <p>本次团聚是学习宝的一个新的起点。虽然在当下的大部分时刻，我们早已互相远在天涯，但曾经在学习宝留下的美好回忆永远不会磨灭，它将一值鼓励着我们，向新的生活和未知的未来勇敢前行。</p>
-		<center><br/><br/><br/><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgzqjGvQYo7ObTMzCqDTj-CQ.jpg" style="max-width:90%;"/></center><p><br/><br/><pre>（正文内容使用生成式人工智能工具创作）</pre></p>
+		<center><br/><br/><br/><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgzqjGvQYo7ObTMzCqDTj-CQ.jpg" style="max-width:90%;"/></center><p><br/><br/></p>
                 `;
 		basI('学习宝团队成员时隔两年半重聚长春冰雪新天地，重温美好回忆，携手迈向未来',2025,2,14);
 		break;
