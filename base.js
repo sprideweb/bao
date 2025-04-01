@@ -39,10 +39,10 @@ document.getElementById('footer').innerHTML=`
 			  <span>春潮视频部</span>
 			  <span>学习宝视频网</span>
 			  版权所有 All right Reserved.
-			  <span>HTTP://bao.Spride.asia</span>
+			  <span>HTTP://bao.Spride2020.com</span>
 			</p>
 			<p>
-			  <span>地址：吉林省长春市南关区自由大路560号师大附属中学</span>
+			  <span>地址：吉林省长春市南关区自由大路506号东北师大附属中学（自由校区）</span>
 			  <span>吉ICP备10225932号</span>
 			</p>
 		</div>
@@ -114,15 +114,10 @@ if (judgeIfNameIsList === 'list.html') {
 		      <a href="list.html?c=lxwm">联系我们</a>
 		      <a href="list.html?c=follow">关注我们</a>
 			</div><div class="list-right">
+			<xw><a href="?n=1297">开启新征程 本站启用全新域名</a><t>2025-04-02</t></xw>
 			<xw><a href="?n=1294">学习宝团队成员时隔两年半重聚长春冰雪新天地，重温美好回忆，携手迈向未来</a><t>2025-02-14</t></xw>
-			<xw><a href="https://bao.spride.asia/app/" target="_blank">学习宝APP正式上线安卓市场</a><t>2024-06-12</t></xw>
-			<xw><a href="?n=1267">终止运营公告（二）</a><t>2024-04-11</t></xw>
-			<xw><a href="?n=1266">终止运营公告（一）</a><t>2024-04-10</t></xw>
 			<xw><a href="?n=1232">学习宝发布最终视频，感恩同行告别高中生涯</a><t>2022-08-15</t></xw>
-			<xw><a href="?n=1230">春潮视频团队毕业去向大揭秘</a><t>2022-07-26</t></xw>
 			<xw><a href="?n=1163">学习宝粉丝群来了！宝子们速速进群唠嗑！</a><t>2022-02-15</t></xw>
-			<xw><a href="?n=1162">关于我们</a><t>2022-02-09</t></xw>
-			<xw><a href="?n=1157">学习宝Logo释义&视觉识别系统介绍</a><t>2022-01-20</t></xw>
 			</div>
 		`);
 		break;
@@ -134,13 +129,23 @@ if (judgeIfNameIsList === 'list.html') {
 		break;
 	default:
 		switch (getN) {
+		case '1163': 
+			fill(`
+				<div class="news">
+			     <tit>学习宝粉丝群来了！宝子们速速进群唠嗑！</tit>
+			     <tim>2022-02-15</tim>
+			     <hr/>
+			     <p>视频地址：<a href="https://www.bilibili.com/video/BV1WT4y1X7Td" target="_blank">https://www.bilibili.com/video/BV1WT4y1X7Td</a></p>
+			    </div>
+			`);
+			break;
 		case '1215': 
 			fill(`
 				<div class="news">
 			     <tit>姜浩然</tit>
 			     <tim>2022-06-22</tim>
 			     <hr/>
-			     <p>姜浩然</p>
+			     <p><center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo6pjo1Qcw4gI42AM.jpg"/></center></p>
 			    </div>
 			`);
 			break;
@@ -150,7 +155,7 @@ if (judgeIfNameIsList === 'list.html') {
 			     <tit>陈 骁</tit>
 			     <tim>2022-06-22</tim>
 			     <hr/>
-			     <p>陈骁（解说马尧）</p>
+			     <p><center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo0abTzwYw4gI42AM.jpg"/></center></p>
 			    </div>
 			`);
 			break;
@@ -180,8 +185,7 @@ if (judgeIfNameIsList === 'list.html') {
 			     <tit>董彦伯</tit>
 			     <tim>2022-06-22</tim>
 			     <hr/>
-			     <p>董彦伯</p>
-			     <p></p>
+			     <p><center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgtI2EuwYo4qm_8AQw4gI42AM.jpg"/></center></p>
 			    </div>
 			`);
 			break;
@@ -275,6 +279,16 @@ if (judgeIfNameIsList === 'list.html') {
 			     <tim>2025-02-14</tim>
 			     <hr/>
 			     <p><center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgzqjGvQYo7ObTMzCqDTj-CQ.jpg"></p>
+			    </div>
+			`);
+			break;
+		case '1297': 
+			fill(`
+				<div class="news">
+			     <tit>开启新征程 本站启用全新域名</tit>
+			     <tim>2025-04-02</tim>
+			     <hr/>
+			     <p>本站全新顶级域名Bao.Spride2020.Com于今日正式启用。</p>
 			    </div>
 			`);
 			break;
