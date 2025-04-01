@@ -114,8 +114,7 @@ if (judgeIfNameIsList === 'list.html') {
 		      <a href="list.html?c=lxwm">联系我们</a>
 		      <a href="list.html?c=follow">关注我们</a>
 			</div><div class="list-right">
-			<xw><a href="?n=1297">开启新征程 本站启用全新域名</a><t>2025-04-02</t></xw>
-			<xw><a href="?n=1294">学习宝团队成员时隔两年半重聚长春冰雪新天地，重温美好回忆，携手迈向未来</a><t>2025-02-14</t></xw>
+			<xw><a href="?n=1294">学习宝团队成员时隔两年半重聚长春冰雪新天地</a><t>2025-02-14</t></xw>
 			<xw><a href="?n=1232">学习宝发布最终视频，感恩同行告别高中生涯</a><t>2022-08-15</t></xw>
 			<xw><a href="?n=1163">学习宝粉丝群来了！宝子们速速进群唠嗑！</a><t>2022-02-15</t></xw>
 			</div>
@@ -275,21 +274,16 @@ if (judgeIfNameIsList === 'list.html') {
 		case '1294': 
 			fill(`
 				<div class="news">
-			     <tit>学习宝团队成员时隔两年半重聚长春冰雪新天地，重温美好回忆，携手迈向未来</tit>
+			     <tit>学习宝团队成员时隔两年半重聚长春冰雪新天地</tit>
 			     <tim>2025-02-14</tim>
 			     <hr/>
 			     <p><center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgzqjGvQYo7ObTMzCqDTj-CQ.jpg"></p>
+			     <p>2025年2月13日，原学习宝团队成员10人一行来到吉林省长春市长春冰雪新天地重聚。尽管有2名成员因故未到场，但这也是学习宝成员从高中毕业两年半以来人员最齐的一次。学习宝团队成员游览了冰雪新天地的各项游乐项目，并拍摄了视频素材。随后，前往楼外楼火锅就餐。</p>
 			    </div>
 			`);
 			break;
 		case '1297': 
 			fill(`
-				<div class="news">
-			     <tit>开启新征程 本站启用全新域名</tit>
-			     <tim>2025-04-02</tim>
-			     <hr/>
-			     <p>本站全新顶级域名Bao.Spride2020.Com于今日正式启用。</p>
-			    </div>
 			`);
 			break;
 		default:
