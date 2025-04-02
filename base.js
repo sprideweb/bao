@@ -293,6 +293,8 @@ if (judgeIfNameIsList === 'list') {
 		}
 		break;
 	}
+} else if(judgeIfNameIsList === 'list.html') {  
+       alert('No access permission');
 } else {
 }
 
