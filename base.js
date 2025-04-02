@@ -9,12 +9,12 @@ document.getElementById('home').innerHTML=`
 		<img src="https://13511974.s21i.faiusr.com/4/ABUIABAEGAAgyNSVvwYolP-0swcwkAk4uAE.png"/>
 	</div>
 	<div class="nav">
-		<a class="act" href="index.html">首页</a>
-		<a href="list.html?c=cyjs">成员介绍</a>
-		<a href="list.html?c=xwall">本社新闻</a>
-		<a href="list.html?c=lxwm">联系我们</a>
-		<a href="list.html?c=follow">关注我们</a>
-		<a href="list.html?c=appzt">APP&nbsp;</a>
+		<a class="act" href="/">首页</a>
+		<a href="list?c=cyjs">成员介绍</a>
+		<a href="list?c=xwall">本社新闻</a>
+		<a href="list?c=lxwm">联系我们</a>
+		<a href="list?c=follow">关注我们</a>
+		<a href="list?c=appzt">APP&nbsp;</a>
 		<div class="drop" style="float: right;">
 			<a style="font-size: 12px;"><img src="https://13511974.s21i.faiusr.com/4/ABUIABAEGAAg3diVvwYo9JDz0QMwsAk4jwg.png" class="dropicon" />&nbsp;站群</a>
 			<div class="content">
@@ -55,7 +55,7 @@ const getC = urlParams.get('c');
 const getN = urlParams.get('n');
 const path = window.location.pathname;
 const judgeIfNameIsList = path.split('/').pop();
-if (judgeIfNameIsList === 'list.html') {
+if (judgeIfNameIsList === 'list') {
 	switch (getC) {
 	case 'cyjs': 
 		title('成员介绍');
@@ -63,9 +63,9 @@ if (judgeIfNameIsList === 'list.html') {
 			<div class="list-left">
 			  <h1 class="top">成员介绍</h1>
 		      <a class="act" href="list.html?c=cyjs">成员介绍</a>
-		      <a href="list.html?c=xwall">本社新闻</a>
-		      <a href="list.html?c=lxwm">联系我们</a>
-		      <a href="list.html?c=follow">关注我们</a>
+		      <a href="list?c=xwall">本社新闻</a>
+		      <a href="list?c=lxwm">联系我们</a>
+		      <a href="list?c=follow">关注我们</a>
 			</div><div class="list-right">
 			<h1>成员介绍</h1>
 			<p>
@@ -79,10 +79,10 @@ if (judgeIfNameIsList === 'list.html') {
 		fill(`
 			<div class="list-left">
 			  <h1 class="top">联系我们</h1>
-		      <a href="list.html?c=cyjs">成员介绍</a>
-		      <a href="list.html?c=xwall">本社新闻</a>
-		      <a class="act" href="list.html?c=lxwm">联系我们</a>
-		      <a href="list.html?c=follow">关注我们</a>
+		      <a href="list?c=cyjs">成员介绍</a>
+		      <a href="list?c=xwall">本社新闻</a>
+		      <a class="act" href="list?c=lxwm">联系我们</a>
+		      <a href="list?c=follow">关注我们</a>
 			</div><div class="list-right">
 			<h1>联系我们</h1>
 			</div>
@@ -93,10 +93,10 @@ if (judgeIfNameIsList === 'list.html') {
 		fill(`
 			<div class="list-left">
 			  <h1 class="top">关注我们</h1>
-		      <a href="list.html?c=cyjs">成员介绍</a>
-		      <a href="list.html?c=xwall">本社新闻</a>
-		      <a href="list.html?c=lxwm">联系我们</a>
-		      <a class="act" href="list.html?c=follow">关注我们</a>
+		      <a href="list?c=cyjs">成员介绍</a>
+		      <a href="list?c=xwall">本社新闻</a>
+		      <a href="list?c=lxwm">联系我们</a>
+		      <a class="act" href="list?c=follow">关注我们</a>
 			</div><div class="list-right">
 			<h1>关注我们</h1>
 			<p><img src="https://13511974.s21i.faiusr.com/4/5/ABUIABAEGAAgyv-vuwYoyui2_QEw9AM49AM.png"></p>
@@ -109,10 +109,10 @@ if (judgeIfNameIsList === 'list.html') {
 		fill(`
 			<div class="list-left">
 			  <h1 class="top">本社新闻</h1>
-		      <a href="list.html?c=cyjs">成员介绍</a>
-		      <a class="act" href="list.html?c=xwall">本社新闻</a>
-		      <a href="list.html?c=lxwm">联系我们</a>
-		      <a href="list.html?c=follow">关注我们</a>
+		      <a href="list?c=cyjs">成员介绍</a>
+		      <a class="act" href="list?c=xwall">本社新闻</a>
+		      <a href="list?c=lxwm">联系我们</a>
+		      <a href="list?c=follow">关注我们</a>
 			</div><div class="list-right">
 			<xw><a href="?n=1294">学习宝团队成员时隔两年半重聚长春冰雪新天地</a><t>2025-02-14</t></xw>
 			<xw><a href="?n=1232">学习宝发布最终视频，感恩同行告别高中生涯</a><t>2022-08-15</t></xw>
@@ -288,7 +288,7 @@ if (judgeIfNameIsList === 'list.html') {
 			break;
 		default:
 			alert('parameter illegal');
-			window.location.href='index.html';
+			window.location.href='/';
 			break;
 		}
 		break;
