@@ -39,7 +39,7 @@ document.getElementById('footer').innerHTML=`
 			  <span>春潮视频部</span>
 			  <span>学习宝视频网</span>
 			  版权所有 All right Reserved.
-			  <span>HTTP://bao.Spride2020.com</span>
+			  <span>HTTP://bao.Spride.Asia/</span>
 			</p>
 			<p>
 			  <span>地址：吉林省长春市南关区自由大路506号东北师大附属中学（自由校区）</span>
