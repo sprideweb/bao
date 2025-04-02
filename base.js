@@ -294,7 +294,8 @@ if (judgeIfNameIsList === 'list') {
 		break;
 	}
 } else if(judgeIfNameIsList === 'list.html') {  
-       alert('No access permission');
+        alert('no permission access');
+	window.location.href='/';
 } else {
 }
 
