@@ -69,7 +69,7 @@ if (judgeIfNameIsList === 'list') {
 			</div><div class="list-right">
 			<h1>成员介绍</h1>
 			<p>
-			<table style="margin:0 auto;"><tbody><tr><td><a href="?n=1215">姜浩然</a></td><td><a href="?n=1216">陈 骁</a></td><td><a href="?n=1217">赵禹淳</a></td><td><a href="?n=1218">刘彦泽</a></td><td><a href="?n=1219">董彦伯</a></td></tr><tr><td><a href="?n=1220">王禹尧</a></td><td><a href="?n=1221">杨士赫</a></td><td><a href="?n=1222">洪宇凡</a></td><td><a href="?n=1223">袁炜迪</a></td><td><a href="?n=1224">裴隆基</a></td></tr><tr><td><a href="?n=1292">王鹏博</a></td><td><a href="?n=1291">王柄智</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+			<table style="margin:0 auto;"><tbody><tr><td><a href="?n=1215">姜浩然</a></td><td><a href="?n=1216">陈 骁</a></td><td><a href="?n=1217">赵禹淳</a></td><td><a href="?n=1218">刘彦泽</a></td><td><a href="?n=1219">董彦伯</a></td><td><a href="?n=1220">王禹尧</a></td></tr><tr><td><a href="?n=1221">杨士赫</a></td><td><a href="?n=1222">洪宇凡</a></td><td><a href="?n=1223">袁炜迪</a></td><td><a href="?n=1224">裴隆基</a></td><td><a href="?n=1292">王鹏博</a></td><td><a href="?n=1291">王柄智</a></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 			</p>
 			</div>
 		`);
