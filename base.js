@@ -115,6 +115,7 @@ if (judgeIfNameIsList === 'list') {
 		      <a href="list?c=follow">关注我们</a>
 			</div><div class="list-right">
 			<xw><a href="?n=1294">学习宝团队成员时隔两年半重聚长春冰雪新天地</a><t>2025-02-14</t></xw>
+			<xw><a href="?n=1280">学习宝超级APP安卓版正式上线</a><t>2024-06-11</t></xw>
 			<xw><a href="?n=1232">学习宝发布最终视频，感恩同行告别高中生涯</a><t>2022-08-15</t></xw>
 			<xw><a href="?n=1163">学习宝粉丝群来了！宝子们速速进群唠嗑！</a><t>2022-02-15</t></xw>
 			</div>
@@ -251,6 +252,17 @@ if (judgeIfNameIsList === 'list') {
 			    </div>
 			`);
 			break;
+		case '1280': 
+			fill(`
+				<div class="news">
+			     <tit>学习宝超级APP安卓版正式上线</tit>
+			     <tim>2024-06-11</tim>
+			     <hr/>
+			     <p>【本站讯】学习宝超级APP安卓版于今日正式上线。学习宝超级APP提供学习宝全域视频高速播放和全域视频免流服务，让用户畅享4K1080P高清画质视频。看学习宝视频，享受美好生活！</p>
+                             <p>学习宝APP官方网站：<a href="http://bao.spride2020.com/app/" target="_blank">http://bao.spride.asia/app/</a></p>
+			    </div>
+			`);
+			break;
 		case '1291': 
 			fill(`
 				<div class="news">
@@ -264,7 +276,7 @@ if (judgeIfNameIsList === 'list') {
 		case '1292': 
 			fill(`
 				<div class="news">
-			     <tit>王鹏博</tit>
+			     <tit>王鹏泊</tit>
 			     <tim>2025-02-10</tim>
 			     <hr/>
 			     <p></p>
@@ -277,7 +289,7 @@ if (judgeIfNameIsList === 'list') {
 			     <tit>学习宝团队成员时隔两年半重聚长春冰雪新天地</tit>
 			     <tim>2025-02-14</tim>
 			     <hr/>
-			     <p><center><img src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgzqjGvQYo7ObTMzCqDTj-CQ.jpg"></p>
+			     <p><center><img width="100%" src="https://13511974.s21i.faiusr.com/2/5/ABUIABACGAAgzqjGvQYo7ObTMzCqDTj-CQ.jpg"></center></p>
 			     <p>2025年2月13日，原学习宝团队成员10人一行来到吉林省长春市长春冰雪新天地重聚。尽管有2名成员因故未到场，但这也是学习宝成员从高中毕业两年半以来人员最齐的一次。学习宝团队成员游览了冰雪新天地的各项游乐项目，并拍摄了视频素材。随后，前往楼外楼火锅就餐。</p>
 			    </div>
 			`);
