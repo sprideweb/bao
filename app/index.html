@@ -1,3 +1,4 @@
+<!-- Powered by 博雅天下网络 -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,25 +7,74 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="appgfwz.css"/>
+<link rel="stylesheet" type="text/css" href="http://bao.spride2020.com/app/appgfwz.css"/>
 <title>学习宝APP官方网站 - 学习宝超级APP</title>
 <style type="text/css">
 #app {display: none;}
 #pre {text-align: center;line-height: 95vh;user-select: none;}
+/*遮罩CSS 开始*/
+.i2-shade {
+	position: fixed;
+	top: 0;
+	left: 200vw;
+	opacity: 0;
+	z-index: 999;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, .5);
+	transition: opacity .5s;
+}
+.i2-shade div {
+	margin: 30vh auto;
+	padding: 20px;
+	width: 80%;
+	max-width: 460px;
+	background: #fff;
+	border-radius: 8px;
+}
+.i2-shade div p {
+	font-size: 16px;
+	line-height: 2;
+	color: #000;
+}
+.i2-shade div p span {
+	display: block;
+	color: #2894ff;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0;
+	text-align: center;
+}
+.i2-btn {
+	display: block;
+	margin: 15px auto;
+	width: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	padding: 12px 20px;
+	border-radius: 5px;
+	background: #2894ff;
+	user-select: none;
+	cursor: pointer;
+}
+/*遮罩CSS 结束*/
 </style>
 </head>
 <body>
-
-
 <div id="pre">&#27491;&#22312;&#21152;&#36733;&#20013;&#46;&#46;&#46;</div>
 <div id="app">
-	<div style="margin:0;background:#FFECEC;border:1.5px solid #AE0000;">
-		<div class="width">
-			<p style="line-height:40px;color:#AE0000;font-weight:bold;font-size:16.5px;">[2025-1-31]&nbsp;由于CDN供应商凯速网络故障，下载链接暂时不可用。我们正在等待供应商修复，感谢您的耐心等待。</p>
+	<!-- 遮罩HTML 开始 -->
+	<div class="i2-shade" id="i2-shade">
+		<div>
+			<p><span>故障公告</span>&emsp;&emsp;由于CDN服务商凯速出现故障，本站下载链接暂时不可用。我们正在等待服务商修复，感谢您的耐心等待。</p>
+			<p style="text-align: right;">2025年1月31日</p>
+			<span class="i2-btn" onclick="close_i2_shade()">好的</span>
 		</div>
 	</div>
+	<!-- 遮罩HTML 结束 -->
 	<div class="top">
-		<div class="width"><logo></logo><title>学习宝APP</title><a href="/brand/" target="_blank">学习宝官网</a></div>
+		<div class="width"><logo></logo><title>学习宝APP</title><a href="/" target="_blank">学习宝官网</a></div>
 	</div>
 	<div class="top_under"></div>
 	<div class="mid">
@@ -56,10 +106,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
 <script type="text/javascript">
 d('pre');
 a('app');
@@ -75,6 +121,14 @@ function pcdown() {
 }
 function d(e) {document.getElementById(e).style.display='none';}
 function a(e) {document.getElementById(e).style.display='block';}
+/*遮罩JS 开始*/
+document.getElementById('i2-shade').style.left='0';
+setTimeout("document.getElementById('i2-shade').style.opacity='1'",1);
+function close_i2_shade() {
+	document.getElementById('i2-shade').style.opacity='0';
+	setTimeout("document.getElementById('i2-shade').style.left='200vw'",500);
+}
+/*遮罩JS 结束*/
 </script>
 </body>
 </html>
