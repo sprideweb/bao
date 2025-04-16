@@ -1,4 +1,4 @@
-<!-- Powered by 博雅天下网络 -->
+<!-- 博雅天下 -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,9 +67,16 @@
 	<!-- 遮罩HTML 开始 -->
 	<div class="i2-shade" id="i2-shade">
 		<div>
-			<p><span>故障公告</span>&emsp;&emsp;由于CDN服务商凯速出现故障，本站下载链接暂时不可用。我们正在等待服务商修复，感谢您的耐心等待。</p>
+			<p><span>故障公告</span>&emsp;&emsp;由于CDN服务商（凯速网络）服务器出现故障，本站下载链接暂时不可用。我们正在等待服务商修复，感谢您的耐心等待。</p>
 			<p style="text-align: right;">2025年1月31日</p>
 			<span class="i2-btn" onclick="close_i2_shade()">好的</span>
+		</div>
+	</div>
+	<div class="i2-shade" id="i3-shade">
+		<div>
+			<p><span>公告</span>&emsp;&emsp;</p>
+			<p style="text-align: right;"></p>
+			<span class="i2-btn" onclick="close_i3_shade()">好的</span>
 		</div>
 	</div>
 	<!-- 遮罩HTML 结束 -->
@@ -127,6 +134,12 @@ setTimeout("document.getElementById('i2-shade').style.opacity='1'",1);
 function close_i2_shade() {
 	document.getElementById('i2-shade').style.opacity='0';
 	setTimeout("document.getElementById('i2-shade').style.left='200vw'",500);
+	setTimeout("document.getElementById('i3-shade').style.left='0'",550);
+	setTimeout("document.getElementById('i3-shade').style.opacity='1'",551);
+}
+function close_i3_shade() {
+	document.getElementById('i3-shade').style.opacity='0';
+	setTimeout("document.getElementById('i3-shade').style.left='200vw'",500);
 }
 /*遮罩JS 结束*/
 </script>
