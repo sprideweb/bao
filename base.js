@@ -8,7 +8,10 @@ document.getElementById('home').innerHTML=`
 	<div class="top">
 		<img src="https://13511974.s21i.faiusr.com/4/ABUIABAEGAAgyNSVvwYolP-0swcwkAk4uAE.png"/>
 	</div>
-	<div class="nav">
+	
+</div>
+<div class="nav">
+<div style="width:900px;margin:0 auto;">
 		<a class="act" href="/">首页</a>
 		<a href="list?c=cyjs">成员介绍</a>
 		<a href="list?c=xwall">本社新闻</a>
@@ -18,14 +21,11 @@ document.getElementById('home').innerHTML=`
 		<div class="drop" style="float: right;">
 			<a style="font-size: 12px;"><img src="https://13511974.s21i.faiusr.com/4/ABUIABAEGAAg3diVvwYo9JDz0QMwsAk4jwg.png" class="dropicon" />&nbsp;站群</a>
 			<div class="content">
-				<a class="droplink" href="https://spride.asia">春潮官网</a>
-				<a class="droplink" href="https://spride.asia">春潮游戏</a>
-				<a class="droplink" href="https://spride.asia">春潮到家</a>
-				<a class="droplink" href="https://spride.asia">春潮视频</a>
+				<a class="droplink" href="https://spride.asia">敬请期待</a>
 			</div>
 		</div>
 	</div>
-</div>
+ </div>
 `;
 document.getElementById('footer').innerHTML=`
 <div class="width">
