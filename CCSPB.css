@@ -27,7 +27,7 @@ a:focus {
 	background: #f0f0f0;
 }
 .dropicon {
-	display: inline-block;
+	display: none;
 	vertical-align: middle;
 	width: 11px;
 	height: 5px;
@@ -41,23 +41,25 @@ a:focus {
 	color: #6f6f6f;
 }
 .nav {
-	background: #2570a1;
-	height: 30px;
+	background: #0080ff;
+	height: 50px;
 	padding: 0 10px;
 }
 .nav a:not(.droplink) {
 	display: inline-block;
 	vertical-align: top;
 	color: #fff;
-	font-size: 13px;
-	line-height: 30px;
+	font-size: 16px;
+	line-height: 50px;
 	text-align: center;
-	padding: 0 6px;
+	padding: 0 20px;
 	text-decoration: none;
 	cursor: pointer;
+	transition:background .12s;
 }
 .nav a:not(.droplink):hover {
-	color: #ffe600;
+	background:#005ab5;
+	color:#fff;
 }
 .drop {
 	display: inline-block;
@@ -70,7 +72,7 @@ a:focus {
 	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 	overflow: hidden;
 	display: none;
-	min-width: 60px!important;
+	min-width: 100px!important;
 	z-index: 999;
 }
 .drop:hover .content {
@@ -79,8 +81,8 @@ a:focus {
 a.droplink {
 	display: block;
 	text-align: center;
-	font-size: 11.5px;
-	padding: 6px 0;
+	font-size: 15px;
+	padding: 10px 0;
 	color: #000;
 	text-decoration: none;
 	line-height: 1.5;
@@ -210,29 +212,28 @@ a.droplink:hover {
 .news tit {
 	display: block;
 	font-weight: bold;
-	padding: 10px 0;
+	padding: 20px 0;
 	text-align: center;
-	font-size: 16.5px;
+	font-size: 20px;
 }
 .news tim {
-	font-size: 12px;
+	font-size: 14px;
 	text-align: center;
 	display: block;
 	color: #9f9f9f;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
 	user-select: none;
 }
 .news tim::before {
 	content: '发布时间：';
 }
 .news tim::after {
-	content: '作者：Admin';
 	margin-left: 10px;
 }
 .news p {
-	line-height: 1.5;
+	line-height: 2;
 	padding: 5px 15px;
-	font-size: 14px;
+	font-size: 18px;
 }
 .news p::nth-child(1) {
 	padding-top: 20px;
