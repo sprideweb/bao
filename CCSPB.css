@@ -4,11 +4,8 @@
 	line-height: 1;
 }
 a {
-	color: blue;
+	color: #0080ff;
 	text-decoration: none;
-}
-a:focus {
-	color: red;
 }
 #list-name {
 	margin: 15px auto;
